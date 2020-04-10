@@ -6,61 +6,113 @@ namespace ConsoleApplication8
 
     class Program
     {
+
+        public static string Line = "_____________";
+        public static string Q;
+        public static string A1;
+        public static string A2;
+        public static string A3;
+        public static string A4;
+        public static string A5;
+        public static string A6;
+        public static string A8; 
+        public static string A9;
         public static void Main()
 
         {
-            Face();
-            Console.WriteLine("{0,51}", "_______________________");
-            Console.WriteLine("{0,45}", "Привет!Как дела?:");
-            string A1 = "-Привет!Все плохо:(";
-            string A2 = "-Привет!Все хорошо:)";
-            Console.WriteLine("{0,47}", A1);
-            Console.WriteLine("{0,48}", A2);
-            Console.SetCursorPosition(30, 10);
-            Console.WindowHeight = 20;
-            Console.WindowWidth = 70;
-            ConsoleKey key = Console.ReadKey().Key;
-            if (key == ConsoleKey.D1)
-            {
-                Console.WriteLine("-Печально");
-                Thread.Sleep(2000);
-                Console.Clear();
-                Face();
-                Console.WriteLine("{0,51}", "_______________________");
-                Console.WriteLine("{0,42}", "Что случилось?");
-                string B1 = "-Неважно";
-                string B2 = "-Да так";
-                Console.WriteLine("{0,37}", B1);
-                Console.WriteLine("{0,37}", B2);
-            }
-            else if (key == ConsoleKey.D2)
-            {
-                Console.WriteLine("-Здорово");
-                Thread.Sleep(2000);
-                Console.Clear();
-                Face();
-                Console.WriteLine("{0,51}", "_______________________");
-                Console.WriteLine("{0,50 }", "Расскажешь что-нибудь?");
-                string B1 = "-Да";
-                string B2 = "-Нет";
-                Console.WriteLine("{0,31}", B1);
-                Console.WriteLine("{0,32}", B2);
-            }
+            scenemain();
+            choose(scene1, scene2);
 
-            else if (key == ConsoleKey.D3)
-            {
-                Console.WriteLine("-Вы продолжили свой путь.");
-            }
-            
+        }    
 
-            static void Face()
-            {
-                Console.WriteLine("     __   __ ");
-                Console.WriteLine("    /()| /()|");
-                Console.WriteLine("       /|");
-                Console.WriteLine("      .... ");
-            }
+
+        static void scenemain()
+        { 
+            Q = "-Как дела?";
+            A1 = "-Хорошо"; 
+            A2 = "-Плохо";
+            scene(Line, Q, A1, A2);
+        }
+        static void scene1()
+        {
+            jump("-Печально");
+            Q = "Что случилось?";
+            A1 = "-Неважно";
+            A2 = "-Да так";
+            scene(Line, Q, A1, A2);
+        }
+        static void scene2()
+        {
+            jump("-здорово!");
+            Q = "Я рад!";
+            A1 = "-Пока";
+            A2 = "-Пока!!!!!";
+            scene(Line, Q, A1, A2);
         }
 
+
+        public static void jump(string output)
+        {
+            Console.WriteLine(output);
+            Thread.Sleep(1500);
+            Console.Clear();
+        }
+        public static void scene(params string[] asks)
+
+        {
+            const string space = "             ";
+            for (int i = 0; i < asks.Length; i++)
+            {
+                Console.WriteLine(space + asks[i]);
+            }
+        }
+        public static void choose(params Action[] scenes)
+        {
+            ConsoleKey key = Console.ReadKey().Key;
+            if (key== ConsoleKey.D1)
+            {
+                scenes[0]();
+            }
+            
+            if (key == ConsoleKey.D2)
+            {
+                scenes[1]();
+            }
+            if (key == ConsoleKey.D3)
+            {
+                scenes[2]();
+            }
+            if (key == ConsoleKey.D3)
+            {
+                scenes[2]();
+            }
+            if (key == ConsoleKey.D4)
+            {
+                scenes[3]();
+            }
+            if (key == ConsoleKey.D5)
+            {
+                scenes[4]();
+            }
+            if (key == ConsoleKey.D6)
+            {
+                scenes[5]();
+            }
+            if (key == ConsoleKey.D7)
+            {
+                scenes[6]();
+            }
+            if (key == ConsoleKey.D8)
+            {
+                scenes[7]();
+            }
+            if (key == ConsoleKey.D9)
+            {
+                scenes[8]();
+            }
+
+        }
+        
     }
 }
+

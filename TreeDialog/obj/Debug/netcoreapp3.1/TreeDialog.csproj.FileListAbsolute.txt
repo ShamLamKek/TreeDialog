@@ -4,8 +4,8 @@ E:\TreeDialog\TreeDialog\bin\Debug\netcoreapp3.1\TreeDialog.runtimeconfig.json
 E:\TreeDialog\TreeDialog\bin\Debug\netcoreapp3.1\TreeDialog.runtimeconfig.dev.json
 E:\TreeDialog\TreeDialog\bin\Debug\netcoreapp3.1\TreeDialog.dll
 E:\TreeDialog\TreeDialog\bin\Debug\netcoreapp3.1\TreeDialog.pdb
-E:\TreeDialog\TreeDialog\obj\Debug\netcoreapp3.1\TreeDialog.csprojAssemblyReference.cache
 E:\TreeDialog\TreeDialog\obj\Debug\netcoreapp3.1\TreeDialog.AssemblyInfoInputs.cache
 E:\TreeDialog\TreeDialog\obj\Debug\netcoreapp3.1\TreeDialog.AssemblyInfo.cs
 E:\TreeDialog\TreeDialog\obj\Debug\netcoreapp3.1\TreeDialog.dll
 E:\TreeDialog\TreeDialog\obj\Debug\netcoreapp3.1\TreeDialog.pdb
+E:\TreeDialog\TreeDialog\obj\Debug\netcoreapp3.1\TreeDialog.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+E:\TreeDialog\Scene\bin\Debug\netcoreapp3.1\Scene.exe
+E:\TreeDialog\Scene\bin\Debug\netcoreapp3.1\Scene.deps.json
+E:\TreeDialog\Scene\bin\Debug\netcoreapp3.1\Scene.runtimeconfig.json
+E:\TreeDialog\Scene\bin\Debug\netcoreapp3.1\Scene.runtimeconfig.dev.json
+E:\TreeDialog\Scene\bin\Debug\netcoreapp3.1\Scene.dll
+E:\TreeDialog\Scene\bin\Debug\netcoreapp3.1\Scene.pdb
+E:\TreeDialog\Scene\obj\Debug\netcoreapp3.1\Scene.csprojAssemblyReference.cache
+E:\TreeDialog\Scene\obj\Debug\netcoreapp3.1\Scene.AssemblyInfoInputs.cache
+E:\TreeDialog\Scene\obj\Debug\netcoreapp3.1\Scene.AssemblyInfo.cs
+E:\TreeDialog\Scene\obj\Debug\netcoreapp3.1\Scene.dll
+E:\TreeDialog\Scene\obj\Debug\netcoreapp3.1\Scene.pdb
