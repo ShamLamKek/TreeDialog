@@ -9,3 +9,5 @@ E:\TreeDialog\TreeDialog\obj\Debug\netcoreapp3.1\TreeDialog.AssemblyInfo.cs
 E:\TreeDialog\TreeDialog\obj\Debug\netcoreapp3.1\TreeDialog.dll
 E:\TreeDialog\TreeDialog\obj\Debug\netcoreapp3.1\TreeDialog.pdb
 E:\TreeDialog\TreeDialog\obj\Debug\netcoreapp3.1\TreeDialog.csprojAssemblyReference.cache
+E:\TreeDialog\TreeDialog\obj\Debug\netcoreapp3.1\TreeDialog.csproj.CoreCompileInputs.cache
+E:\TreeDialog\TreeDialog\obj\Debug\netcoreapp3.1\TreeDialog.genruntimeconfig.cache
